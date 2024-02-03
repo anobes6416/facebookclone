@@ -1,9 +1,12 @@
 import './App.css';
-
+import Home from './pages/Home/Home'
+import {Person} from '@material-ui/icons'
+import Topbar from './pages/Topbar/Topbar';
 function App() {
   return (
-    <div className="App">
-     Hello
+    <div >
+     <Person />
+     <Topbar />
     </div>
   );
 }
